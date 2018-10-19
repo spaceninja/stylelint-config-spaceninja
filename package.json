@@ -18,7 +18,7 @@
     "css"
   ],
   "author": "Scott Vandehey",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/spaceninja/stylelint-config-spaceninja/issues"
   },
