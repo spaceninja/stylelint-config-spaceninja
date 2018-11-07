@@ -1,3 +1,7 @@
+# 4.0.0 - 2018-11-07
+
+-   Removed `indentation` in favor of `stylelint-config-standard`'s setting
+
 # 3.0.0 - 2018-10-18
 
 -   Forked from [stylelint-config-saymedia](https://github.com/saymedia/stylelint-config-saymedia)
