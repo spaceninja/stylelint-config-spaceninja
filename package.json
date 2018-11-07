@@ -2,34 +2,35 @@
   "name": "stylelint-config-spaceninja",
   "version": "3.0.0",
   "description": "Spaceninja's stylelint config",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "keywords": ["stylelint", "stylelint-config", "config", "spaceninja", "css"],
+  "homepage": "https://github.com/spaceninja/stylelint-config-spaceninja#readme",
+  "author": "Scott Vandehey",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/spaceninja/stylelint-config-spaceninja.git"
   },
-  "keywords": [
-    "stylelint",
-    "stylelint-config",
-    "config",
-    "spaceninja",
-    "css"
-  ],
-  "author": "Scott Vandehey",
-  "license": "MIT",
+  "main": "index.js",
   "bugs": {
     "url": "https://github.com/spaceninja/stylelint-config-spaceninja/issues"
   },
-  "homepage": "https://github.com/spaceninja/stylelint-config-spaceninja#readme",
   "dependencies": {
     "stylelint-config-standard": "~18.2.0",
     "stylelint-declaration-block-no-ignored-properties": "~1.1.0",
     "stylelint-order": "~0.8.1",
     "stylelint-scss": "~3.0.1"
   },
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-stylelint": "^9.0.0"
+  },
   "peerDependencies": {
     "stylelint": "~9.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "eslintConfig": {
+    "extends": ["stylelint"]
   }
 }
