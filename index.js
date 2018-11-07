@@ -21,7 +21,7 @@ module.exports = {
     "declaration-empty-line-before": "never",
     "font-family-name-quotes": "always-where-recommended",
     "function-url-quotes": "always",
-    indentation: 4,
+    indentation: 2,
     "max-line-length": [
       100,
       {
