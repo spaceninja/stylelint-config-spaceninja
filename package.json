@@ -59,6 +59,7 @@
       "stylelint"
     ]
   },
+  "eslintIgnore": ["*.md"],
   "jest": {
     "preset": "jest-preset-stylelint"
   },
