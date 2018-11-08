@@ -24,10 +24,10 @@
     "url": "https://github.com/spaceninja/stylelint-config-spaceninja/issues"
   },
   "dependencies": {
-    "stylelint-config-standard": "~18.2.0",
-    "stylelint-declaration-block-no-ignored-properties": "~1.1.0",
-    "stylelint-order": "~0.8.1",
-    "stylelint-scss": "~3.0.1"
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-declaration-block-no-ignored-properties": "^1.1.0",
+    "stylelint-order": "^0.8.1",
+    "stylelint-scss": "^3.0.1"
   },
   "devDependencies": {
     "eslint": "^5.8.0",
@@ -42,7 +42,7 @@
     "stylelint": "^9.2.0"
   },
   "peerDependencies": {
-    "stylelint": "~9.2.0"
+    "stylelint": "^9.2.0"
   },
   "scripts": {
     "dry-release": "npmpub --dry --verbose",
@@ -59,7 +59,9 @@
       "stylelint"
     ]
   },
-  "eslintIgnore": ["*.md"],
+  "eslintIgnore": [
+    "*.md"
+  ],
   "jest": {
     "preset": "jest-preset-stylelint"
   },
