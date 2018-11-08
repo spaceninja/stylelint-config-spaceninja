@@ -1,6 +1,6 @@
 # stylelint-config-spaceninja
 
-[![NPM version](http://img.shields.io/npm/v/stylelint-config-spaceninja.svg)](https://www.npmjs.org/package/stylelint-config-spaceninja)
+[![NPM version](http://img.shields.io/npm/v/stylelint-config-spaceninja.svg)](https://www.npmjs.org/package/stylelint-config-spaceninja) [![Build Status](https://travis-ci.org/spaceninja/stylelint-config-spaceninja.svg?branch=master)](https://travis-ci.org/spaceninja/stylelint-config-spaceninja)
 
 > A sharable stylelint config object that enforces [Spaceninja's CSS Standards](https://github.com/spaceninja/css-standards)
 
