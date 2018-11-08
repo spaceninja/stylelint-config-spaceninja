@@ -2,7 +2,13 @@
   "name": "stylelint-config-spaceninja",
   "version": "4.0.0",
   "description": "Spaceninja's stylelint config",
-  "keywords": ["stylelint", "stylelint-config", "config", "spaceninja", "css"],
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "config",
+    "spaceninja",
+    "css"
+  ],
   "homepage": "https://github.com/spaceninja/stylelint-config-spaceninja#readme",
   "author": "Scott Vandehey",
   "license": "MIT",
@@ -11,7 +17,9 @@
     "url": "git+https://github.com/spaceninja/stylelint-config-spaceninja.git"
   },
   "main": "index.js",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "bugs": {
     "url": "https://github.com/spaceninja/stylelint-config-spaceninja/issues"
   },
@@ -47,12 +55,17 @@
     "watch": "jest --watch"
   },
   "eslintConfig": {
-    "extends": ["stylelint"]
+    "extends": [
+      "stylelint"
+    ]
   },
   "jest": {
     "preset": "jest-preset-stylelint"
   },
   "remarkConfig": {
-    "plugins": ["preset-lint-recommended", "preset-lint-consistent"]
+    "plugins": [
+      "preset-lint-recommended",
+      "preset-lint-consistent"
+    ]
   }
 }
