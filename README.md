@@ -9,7 +9,7 @@
 Install [stylelint](https://stylelint.io/) and `stylelint-config-spaceninja`:
 
 ```
-npm install stylelint spaceninja/stylelint-config-spaceninja --save-dev
+npm install stylelint stylelint-config-spaceninja --save-dev
 ```
 
 ## Usage
