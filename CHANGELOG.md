@@ -1,3 +1,7 @@
+# 5.0.0 - 2019-11-19
+
+-   Major version bump due to Stylelint v12
+
 # 4.0.0 - 2018-11-07
 
 -   Removed `indentation` in favor of `stylelint-config-standard`'s setting
