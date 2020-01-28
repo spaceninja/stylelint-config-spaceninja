@@ -6,6 +6,7 @@ git:
 branches:
   only:
     - master
+    - /^renovate.*$/
 
 language: node_js
 
