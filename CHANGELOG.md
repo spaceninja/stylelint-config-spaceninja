@@ -1,3 +1,11 @@
+# 6.0.0 - 2020-02-07
+
+-   Major version bump due to dependencies
+-   Updated `stylelint` to v13
+-   Updated `stylelint-order` to v4
+-   Updated `eslint` to v6.8.0
+-   Updated `jest` to v25
+
 # 5.0.0 - 2019-11-19
 
 -   Major version bump due to Stylelint v12
