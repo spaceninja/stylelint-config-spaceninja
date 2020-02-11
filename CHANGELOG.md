@@ -1,3 +1,9 @@
+# 7.0.0 - 2020-02-11
+
+-   Major version bump due to dependencies
+-   Updated `stylelint-config-standard` to v20
+-   Updated `stylelint` to v13.1.0
+
 # 6.0.0 - 2020-02-07
 
 -   Major version bump due to dependencies
