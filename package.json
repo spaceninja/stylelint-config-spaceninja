@@ -73,9 +73,15 @@
   },
   "renovate": {
     "extends": [
-      "config:base",
-      "reviewers": ["spaceninja"],
-      "schedule": ["every weekend"]
+      "config:base"
+    ],
+    "reviewers": ["spaceninja"],
+    "packageRules": [
+      {
+        "depTypeList": ["devDependencies"],
+        "updateTypes": ["minor", "patch", "pin", "digest"],
+        "automerge": true
+      }
     ]
   }
 }
