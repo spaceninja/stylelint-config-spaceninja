@@ -70,10 +70,5 @@
       "preset-lint-recommended",
       "preset-lint-consistent"
     ]
-  },
-  "renovate": {
-    "extends": [
-      "config:base"
-    ]
   }
 }
