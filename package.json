@@ -73,7 +73,8 @@
   },
   "renovate": {
     "extends": [
-      "config:base"
+      "config:base",
+      "reviewers": ["spaceninja"]
     ]
   }
 }
