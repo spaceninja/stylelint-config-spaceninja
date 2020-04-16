@@ -70,18 +70,5 @@
       "preset-lint-recommended",
       "preset-lint-consistent"
     ]
-  },
-  "renovate": {
-    "extends": [
-      "config:base"
-    ],
-    "reviewers": ["spaceninja"],
-    "packageRules": [
-      {
-        "depTypeList": ["devDependencies"],
-        "updateTypes": ["minor", "patch", "pin", "digest"],
-        "automerge": true
-      }
-    ]
   }
 }
