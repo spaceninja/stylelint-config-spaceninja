@@ -1,6 +1,6 @@
 # stylelint-config-spaceninja
 
-[![NPM version](http://img.shields.io/npm/v/stylelint-config-spaceninja.svg)](https://www.npmjs.org/package/stylelint-config-spaceninja) [![Build Status](https://travis-ci.org/spaceninja/stylelint-config-spaceninja.svg?branch=master)](https://travis-ci.org/spaceninja/stylelint-config-spaceninja) [![Renovate Status](https://badges.renovateapi.com/github/spaceninja/stylelint-config-spaceninja)](https://renovatebot.com/)
+[![NPM version](http://img.shields.io/npm/v/stylelint-config-spaceninja.svg)](https://www.npmjs.org/package/stylelint-config-spaceninja) [![Build Status](https://travis-ci.org/spaceninja/stylelint-config-spaceninja.svg?branch=main)](https://travis-ci.org/spaceninja/stylelint-config-spaceninja) [![Renovate Status](https://badges.renovateapi.com/github/spaceninja/stylelint-config-spaceninja)](https://renovatebot.com/)
 
 > A sharable stylelint config object that enforces [Space Ninja's CSS Standards](https://github.com/spaceninja/css-standards)
 
