@@ -1,6 +1,5 @@
+
 {
-  "extends": [
-    "config:base",
-    ":automergeMinor"
-  ]
+  "extends": ["config:base", ":automergeMinor"],
+  "dependencyDashboard": true
 }
