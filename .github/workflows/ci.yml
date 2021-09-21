@@ -17,8 +17,8 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: ${{ runner.os }}-node-
       - name: Install dependencies 👨🏻‍💻
-        run: npm ci
+        run: yarn install --frozen-lockfile
       - name: Run linter 👀
-        run: npm run lint
+        run: yarn lint
       - name: Run tests 🧪
-        run: npm test
+        run: yarn test
