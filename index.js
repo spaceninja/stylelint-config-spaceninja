@@ -1,12 +1,8 @@
 'use strict';
 
 module.exports = {
-	extends: ['stylelint-config-standard'],
-	plugins: [
-		'stylelint-declaration-block-no-ignored-properties',
-		'stylelint-order',
-		'stylelint-scss',
-	],
+	extends: 'stylelint-config-standard-scss',
+	plugins: ['stylelint-declaration-block-no-ignored-properties', 'stylelint-order'],
 	rules: {
 		'at-rule-empty-line-before': null,
 		'at-rule-no-unknown': null,
