@@ -21,7 +21,7 @@
     "lint:js:check": "eslint .",
     "lint:md:check": "remark . --quiet --frail",
     "lint:prettier": "prettier --write .",
-    "lint:prettier:check": "prettier --check .",
+    "lint:prettier:check": "prettier --list-different .",
     "test": "jest",
     "test:watch": "jest --watch"
   },
