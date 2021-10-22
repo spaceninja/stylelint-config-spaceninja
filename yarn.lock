@@ -573,14 +573,14 @@
     remark "^13.0.0"
     unist-util-find-all-after "^3.0.2"
 
-"@stylelint/prettier-config@^2.0.0":
+"@stylelint/prettier-config@2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@stylelint/prettier-config/-/prettier-config-2.0.0.tgz#0361ed7a54e61a8084995ddc531777d3daa96f97"
   integrity sha512-CjOqoMNg/GcOekLY/3w5oxOVXX6xsoOCy+ZJeGpjLQUvMIxExy7p/AF87Pz9gkC+ngXYHM4gA0bnwKhWXMg2Pg==
   dependencies:
     prettier-plugin-packagejson "^2.2.0"
 
-"@stylelint/remark-preset@^3.0.0":
+"@stylelint/remark-preset@3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@stylelint/remark-preset/-/remark-preset-3.0.0.tgz#a3a2fb9964e0c18888fc984dd70f2371c5d6b8fa"
   integrity sha512-NmkENZQQ/wmq82ea/Hf+LR3mHQjt3PX1YqwM7SSEDefRG+F35X2SkcvS/AHDJw0YZwKlUnbxaIWz3eW2xOvw3w==
@@ -1625,7 +1625,7 @@ eslint-config-prettier@^8.3.0:
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.3.0.tgz#f7471b20b6fe8a9a9254cc684454202886a2dd7a"
   integrity sha512-BgZuLUSeKzvlL/VUjx/Yb787VQ26RU3gGjA3iiFvdsp/2bMfVIWUVP7tjxtjS0e+HP409cPlPvNkQloz8C91ew==
 
-eslint-config-stylelint@^14.0.0:
+eslint-config-stylelint@14.0.0:
   version "14.0.0"
   resolved "https://registry.yarnpkg.com/eslint-config-stylelint/-/eslint-config-stylelint-14.0.0.tgz#216ce9d5bb6ec8f56a482632ccdcc0cef6a627a5"
   integrity sha512-/HAEjiNNVOvSAs4J+z9G/Ybk8G8/nLy8hjzISHDZU27Cnx2BwAGFdqXnStucER8rkVnaaFyEM7p+GIC2Zzp6dA==
@@ -4084,7 +4084,7 @@ prettier-plugin-packagejson@^2.2.0:
   dependencies:
     sort-package-json "1.52.0"
 
-prettier@^2.4.1:
+prettier@2.4.1:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.4.1.tgz#671e11c89c14a4cfc876ce564106c4a6726c9f5c"
   integrity sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==
@@ -4224,7 +4224,7 @@ regexpp@^3.0.0, regexpp@^3.1.0, regexpp@^3.2.0:
   resolved "https://registry.yarnpkg.com/regexpp/-/regexpp-3.2.0.tgz#0425a2768d8f23bad70ca4b90461fa2f1213e1b2"
   integrity sha512-pq2bWo9mVD43nbts2wGv17XLiNLya+GklZ8kaDLV2Z08gDCsGpnKn9BFMepvWuHCbyVvY7J5o5+BVvoQbmlJLg==
 
-remark-cli@^10.0.0:
+remark-cli@10.0.0:
   version "10.0.0"
   resolved "https://registry.yarnpkg.com/remark-cli/-/remark-cli-10.0.0.tgz#3b0e20f2ad3909f35c7a6fb3f721c82f6ff5beac"
   integrity sha512-Yc5kLsJ5vgiQJl6xMLLJHqPac6OSAC5DOqKQrtmzJxSdJby2Jgr+OpIAkWQYwvbNHEspNagyoQnuwK2UCWg73g==
