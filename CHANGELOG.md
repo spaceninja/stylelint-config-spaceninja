@@ -1,4 +1,4 @@
-# 8.0.0 - 2020-02-11
+# 8.0.0 - 2021-10-22
 
 - Major version bump due to dependencies
 - Updated `stylelint` to v14.0.0
