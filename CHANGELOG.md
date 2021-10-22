@@ -1,3 +1,11 @@
+# 8.0.0 - 2020-02-11
+
+- Major version bump due to dependencies
+- Updated `stylelint` to v14.0.0
+- Replace `stylelint-config-standard` and `stylelint-scss` with `stylelint-config-standard-scss`
+- Updated `stylelint-order` to v5.0.0
+- Updated `stylelint-declaration-block-no-ignored-properties` to v2.4.0
+
 # 7.0.0 - 2020-02-11
 
 - Major version bump due to dependencies
