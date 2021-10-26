@@ -12,7 +12,7 @@
 .selector-1,
 .selector-2,
 .selector-3[type="text"] {
-  background: linear-gradient(#ffffff, rgb(0 0 0 / 80%));
+  background: linear-gradient(#fff, rgb(0 0 0 / 80%));
   box-sizing: border-box;
   color: var(--brand-red);
   display: block;
@@ -31,7 +31,6 @@
 /* Single-line comment */
 
 @media (width >= 60em) {
-
   .selector {
     /* Flush to parent comment */
     transform: translate(1, 1) scale(3);
@@ -39,7 +38,6 @@
 }
 
 @media (orientation: portrait), projection and (color) {
-
   .selector-i + .selector-ii {
     background: hsl(20deg 25% 33%);
     font-family: Helvetica, "Arial Black", sans-serif;
@@ -50,20 +48,19 @@
 @media
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
-
   .selector {
     animation: 3s none fade-in;
     background-image:
       repeating-linear-gradient(
         -45deg,
         transparent,
-        #ffffff 25px,
+        #fff 25px,
         rgb(255 255 255 / 100%) 50px
       );
     box-shadow:
-      0 1px 1px #000000,
-      0 1px 0 #ffffff,
-      2px 2px 1px 1px #cccccc inset;
+      0 1px 1px #000,
+      0 1px 0 #fff,
+      2px 2px 1px 1px #ccc inset;
     height: 10rem;
     margin: 10px;
     margin-bottom: 5px;

@@ -54,11 +54,11 @@
 }
 
 %message-shared {
-  border: 1px solid #cccccc;
-  color: #333333;
+  border: 1px solid #ccc;
+  color: #333;
 }
 
-$local-color: #333333;
+$local-color: #333;
 $fonts: "Tahoma", "Helvetica Neue", "Helvetica", sans-serif;
 $theme-colors: (
   "success": #28a745,
@@ -71,7 +71,7 @@ $theme-colors: (
 
 .selector-1,
 .selector-3[type="text"] {
-  background: linear-gradient(#ffffff, rgb(0 0 0 / 80%));
+  background: linear-gradient(#fff, rgb(0 0 0 / 80%));
   color: base.$primary-color;
   top: calc(100% - 2rem) !important;
 
@@ -85,7 +85,7 @@ $theme-colors: (
 .selector-z { width: 30%; }
 
 .selector-a {
-  @include theme();
+  @include theme;
 }
 
 .selector-b {
@@ -96,26 +96,26 @@ $theme-colors: (
 /* Single-line comment */
 
 @media (min-width >= 60em) {
-
   .selector {
-
     // Flush to parent comment
     @include corner-icon("mail", top, left);
+
     transform: translate(1, 1) scale(3);
   }
 }
 
 @media (orientation: portrait), projection and (color) {
-
   // Flush to parent double-slash comment
   .selector-i + .selector-ii {
     @include triangle(5px, black, right);
+
     background: hsl(20deg 25% 33%);
 
     .selector-j {
       @function contains-helvetica($string) {
         @return string.index($string, "Helvetica");
       }
+
       font-family: remove-where($fonts, meta.get-function("contains-helvetica"));
     }
   }
@@ -126,13 +126,12 @@ $theme-colors: (
 @media
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
-
   .selector {
     background-image:
       repeating-linear-gradient(
         -45deg,
         transparent,
-        #ffffff 25px,
+        #fff 25px,
         rgb(255 255 255 / 100%) 50px
       );
     height: 10rem;
