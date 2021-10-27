@@ -41,4 +41,21 @@
       display: none;
     }
   }
+
+  // Testing BEM selectors
+  .test__child {
+    color: red;
+  }
+
+  .test-something__child-something {
+    color: red;
+  }
+
+  .test--modifier {
+    color: red;
+  }
+
+  .test-something--modifier-something {
+    color: red;
+  }
 }

@@ -95,7 +95,6 @@ This is a list of the lints turned on in this configuration (beyond the ones tha
 #### Declaration
 
 - [`declaration-empty-line-before`](https://github.com/stylelint/stylelint/blob/master/lib/rules/declaration-empty-line-before/README.md): Disallow an empty line before declarations.
-- [`no-descending-specificity`](https://github.com/stylelint/stylelint/blob/master/lib/rules/no-descending-specificity/README.md): Disallow selectors of lower specificity from coming after overriding selectors of higher specificity. _disabled temporarily, due to false positives, pending [#2489](https://github.com/stylelint/stylelint/issues/2489)_
 - [`selector-class-pattern`](https://github.com/stylelint/stylelint/blob/master/lib/rules/selector-class-pattern/README.md): Expect class selector to be kebab-case. _Disabled to allow for BEM selectors._
 - [`selector-max-id`](https://github.com/stylelint/stylelint/blob/master/lib/rules/selector-max-id/README.md): Don't allow ID selectors
 - [`selector-no-qualifying-type`](https://github.com/stylelint/stylelint/blob/master/lib/rules/selector-no-qualifying-type/README.md): Disallow qualifying a selector by type (excluding attribute selectors)
@@ -105,7 +104,7 @@ This is a list of the lints turned on in this configuration (beyond the ones tha
 
 - [`plugin/declaration-block-no-ignored-properties`](https://github.com/kristerkari/stylelint-declaration-block-no-ignored-properties): Disallow property values that are ignored due to another property value in the same rule.
 
-- [`scss/declaration-nested-properties`](https://github.com/kristerkari/stylelint-scss/blob/master/src/rules/declaration-nested-properties/README.md): Disallow properties with `-` in their names to be in a form of a nested group.
+- [`scss/declaration-nested-properties`](https://github.com/kristerkari/stylelint-scss/blob/master/src/rules/declaration-nested-properties/README.md): Disallow SCSS nested property groups, such as `font { size: 16px; weight: 700; }`.
 - [`scss/selector-no-redundant-nesting-selector`](https://github.com/kristerkari/stylelint-scss/blob/master/src/rules/selector-no-redundant-nesting-selector/README.md): Disallow redundant nesting selectors (`&`).
 
 ## [Changelog](CHANGELOG.md)

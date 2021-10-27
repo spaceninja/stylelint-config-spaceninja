@@ -5,7 +5,6 @@ module.exports = {
 	plugins: ['stylelint-declaration-block-no-ignored-properties', 'stylelint-order'],
 	rules: {
 		'declaration-empty-line-before': 'never',
-		'no-descending-specificity': null,
 		'selector-class-pattern': null,
 		'selector-max-id': 0,
 		'selector-no-qualifying-type': [
