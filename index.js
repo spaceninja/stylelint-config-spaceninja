@@ -2,7 +2,11 @@
 
 module.exports = {
 	extends: ['stylelint-config-standard-scss', 'stylelint-a11y/recommended'],
-	plugins: ['stylelint-declaration-block-no-ignored-properties', 'stylelint-order'],
+	plugins: [
+		'stylelint-declaration-block-no-ignored-properties',
+		'stylelint-high-performance-animation',
+		'stylelint-order',
+	],
 	rules: {
 		'declaration-empty-line-before': 'never',
 		'selector-class-pattern': null,
@@ -16,6 +20,7 @@ module.exports = {
 		'time-min-milliseconds': 100,
 		'order/properties-alphabetical-order': true,
 		'plugin/declaration-block-no-ignored-properties': true,
+		'plugin/no-low-performance-animation-properties': true,
 		'scss/declaration-nested-properties': 'never',
 		'scss/selector-no-redundant-nesting-selector': true,
 	},

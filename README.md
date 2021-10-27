@@ -87,6 +87,7 @@ For example, to change the `at-rule-no-unknown` rule to use its `ignoreAtRules` 
 ### Plugins
 
 - [stylelint-declaration-block-no-ignored-properties](https://github.com/kristerkari/stylelint-declaration-block-no-ignored-properties): Disallow property values that are ignored due to another property value in the same rule.
+- [stylelint-high-performance-animation](https://github.com/kristerkari/stylelint-high-performance-animation): Prevent the use of low performance animation and transition properties.
 - [stylelint-order](https://github.com/hudochenkov/stylelint-order): A plugin pack of order related linting rules for stylelint.
 
 ### Configured Lints

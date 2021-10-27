@@ -72,7 +72,8 @@
     box-shadow: 0 0 0 3px red; // 1
     color: red; // 2
     outline: none; // 1
-    transition: left 1s ease-out; // 3
+    transform: translateX(10px);
+    transition: transform 1s ease-out; // 3
 
     @media screen and (prefers-reduced-motion: reduce) {
       transition: none; // 3
