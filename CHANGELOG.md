@@ -1,3 +1,7 @@
+# 9.0.1 - 2021-10-26
+
+- Unintentionally listed some dependencies as devdependencies
+
 # 9.0.0 - 2021-10-26
 
 - Major version bump due to new rules
