@@ -1,3 +1,10 @@
+# 9.0.0 - 2021-10-26
+
+- Major version bump due to new rules
+- Removed many rules already declared in shared configs
+- Added `stylelint-a11y`
+- Added `stylelint-high-performance-animation`
+
 # 8.0.0 - 2021-10-22
 
 - Major version bump due to dependencies
