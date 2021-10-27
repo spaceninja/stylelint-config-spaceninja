@@ -18,7 +18,8 @@
   margin-top: $length;   // 4
   width: 100%;           // 2b
 
-  &:hover { // 2c
+  &:hover,
+  &:focus { // 2c
     color: red;
   }
 
@@ -57,5 +58,24 @@
 
   .test-something--modifier-something {
     color: red;
+  }
+
+  /**
+   * Testing stylelint-a11y
+   *
+   * 1. :focus rules with outline:none must set a new focus style
+   * 2. :focus must be set when :hover is found
+   * 3. animations must be paired with media-prefers-reduced-motion
+   */
+  a:hover,
+  a:focus {
+    box-shadow: 0 0 0 3px red; // 1
+    color: red; // 2
+    outline: none; // 1
+    transition: left 1s ease-out; // 3
+
+    @media screen and (prefers-reduced-motion: reduce) {
+      transition: none; // 3
+    }
   }
 }

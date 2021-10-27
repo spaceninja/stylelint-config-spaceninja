@@ -82,6 +82,7 @@ For example, to change the `at-rule-no-unknown` rule to use its `ignoreAtRules` 
 ### Extends
 
 - [stylelint-config-standard-scss](https://github.com/stylelint-scss/stylelint-config-standard-scss): The standard shareable SCSS config for Stylelint.
+- [stylelint-a11y/recommended](https://github.com/YozhikM/stylelint-a11y): A stylelint config to check the accessibility of your CSS.
 
 ### Plugins
 

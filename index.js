@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-	extends: 'stylelint-config-standard-scss',
+	extends: ['stylelint-config-standard-scss', 'stylelint-a11y/recommended'],
 	plugins: ['stylelint-declaration-block-no-ignored-properties', 'stylelint-order'],
 	rules: {
 		'declaration-empty-line-before': 'never',
