@@ -94,7 +94,9 @@ This is a list of the lints turned on in this configuration (beyond the ones tha
 
 #### Declaration
 
+- [`declaration-empty-line-before`](https://github.com/stylelint/stylelint/blob/master/lib/rules/declaration-empty-line-before/README.md): Disallow an empty line before declarations.
 - [`no-descending-specificity`](https://github.com/stylelint/stylelint/blob/master/lib/rules/no-descending-specificity/README.md): Disallow selectors of lower specificity from coming after overriding selectors of higher specificity. _disabled temporarily, due to false positives, pending [#2489](https://github.com/stylelint/stylelint/issues/2489)_
+- [`selector-class-pattern`](https://github.com/stylelint/stylelint/blob/master/lib/rules/selector-class-pattern/README.md): Expect class selector to be kebab-case. _Disabled to allow for BEM selectors._
 - [`selector-max-id`](https://github.com/stylelint/stylelint/blob/master/lib/rules/selector-max-id/README.md): Don't allow ID selectors
 - [`selector-no-qualifying-type`](https://github.com/stylelint/stylelint/blob/master/lib/rules/selector-no-qualifying-type/README.md): Disallow qualifying a selector by type (excluding attribute selectors)
 - [`time-min-milliseconds`](https://github.com/stylelint/stylelint/blob/master/lib/rules/time-min-milliseconds/README.md): Specify a minimum time value of 100 milliseconds
