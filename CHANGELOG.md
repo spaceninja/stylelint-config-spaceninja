@@ -1,3 +1,7 @@
+# 10.0.0 - 2022-02-28
+
+- Updated `stylelint-config-standard-scss` to v3
+
 # 9.0.1 - 2021-10-26
 
 - Unintentionally listed some dependencies as devdependencies
