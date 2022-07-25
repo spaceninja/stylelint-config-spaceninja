@@ -1,3 +1,8 @@
+# 11.0.0. - 2022-07-25
+
+- Updated `stylelint-config-standard-scss` to v5
+- Removed: stylelint less than 14.9.0 from peer dependencies.
+
 # 10.0.0 - 2022-02-28
 
 - Updated `stylelint-config-standard-scss` to v3
