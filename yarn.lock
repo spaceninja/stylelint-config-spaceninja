@@ -1821,15 +1821,15 @@ eslint-config-prettier@^8.5.0:
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.5.0.tgz#5a81680ec934beca02c7b1a61cf8ca34b66feab1"
   integrity sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==
 
-eslint-config-stylelint@15.1.0:
-  version "15.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-stylelint/-/eslint-config-stylelint-15.1.0.tgz#7d8ec182b12aa487e760a8a7362f500e5c32f9ee"
-  integrity sha512-vNkTOBjDVdub4udkx4RCwtk6N6pMgPZq21qZgy1fR+HkfT+ce0r4PgyUnY1/MTEfE6MAVLRSYLlHGeOiD1hjWA==
+eslint-config-stylelint@16.0.0:
+  version "16.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-stylelint/-/eslint-config-stylelint-16.0.0.tgz#c832c40d71f8f3c4f1072b3d161a0bec4f860f74"
+  integrity sha512-hYse8NCNfXkuAn4Zk2eqvIM3sTroiIKX/B1wuxQLYyXhOBnSV7MqIP2J3i2/jEK6rQHD0pH/HKwHXScZS6I2tw==
   dependencies:
     eslint-config-prettier "^8.5.0"
-    eslint-plugin-jest "^26.1.5"
+    eslint-plugin-jest "^27.0.1"
     eslint-plugin-node "^11.1.0"
-    eslint-plugin-regexp "^1.7.0"
+    eslint-plugin-regexp "^1.9.0"
 
 eslint-plugin-es@^3.0.0:
   version "3.0.1"
@@ -1839,10 +1839,10 @@ eslint-plugin-es@^3.0.0:
     eslint-utils "^2.0.0"
     regexpp "^3.0.0"
 
-eslint-plugin-jest@^26.1.5:
-  version "26.1.5"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-26.1.5.tgz#6cfca264818d6d6aa120b019dab4d62b6aa8e775"
-  integrity sha512-su89aDuljL9bTjEufTXmKUMSFe2kZUL9bi7+woq+C2ukHZordhtfPm4Vg+tdioHBaKf8v3/FXW9uV0ksqhYGFw==
+eslint-plugin-jest@^27.0.1:
+  version "27.0.4"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-27.0.4.tgz#ab9c7b3f48bfade4762c24c415a5d9bbc0174a61"
+  integrity sha512-BuvY78pHMpMJ6Cio7sKg6jrqEcnRYPUc4Nlihku4vKx3FjlmMINSX4vcYokZIe+8TKcyr1aI5Kq7vYwgJNdQSA==
   dependencies:
     "@typescript-eslint/utils" "^5.10.0"
 
@@ -1858,10 +1858,10 @@ eslint-plugin-node@^11.1.0:
     resolve "^1.10.1"
     semver "^6.1.0"
 
-eslint-plugin-regexp@^1.7.0:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-regexp/-/eslint-plugin-regexp-1.7.0.tgz#19b3c98f4f4d5314242ecc8936346b1936de523e"
-  integrity sha512-nmhXqrEP+O+dz2z5MSkc41u/4fA8oakweoCUdfYwox7DBhzadEqZz8T+s6/UiY0NIU0kv+3UrzBfhPp4wUxbaA==
+eslint-plugin-regexp@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-regexp/-/eslint-plugin-regexp-1.9.0.tgz#692476a4f620e16634f747bf5c4bfbcd480ff6d9"
+  integrity sha512-Che49IZ07w9KcKvrMiqfwBYv44VBunA4NqUo+UTLluYbCos9Du3+pnhkPTLTAx6ZoZ1Rmz7u7o2iC6g6qCuvxw==
   dependencies:
     comment-parser "^1.1.2"
     eslint-utils "^3.0.0"
