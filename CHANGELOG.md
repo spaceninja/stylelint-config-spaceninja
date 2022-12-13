@@ -1,3 +1,8 @@
+# 12.0.0 - 2022-12-13
+
+- Major version bump due to dependencies
+- Updated `stylelint-config-standard-scss` to v6
+
 # 11.0.0. - 2022-07-25
 
 - Updated `stylelint-config-standard-scss` to v5
