@@ -4863,9 +4863,9 @@ stylelint-config-standard@^29.0.0:
     stylelint-config-recommended "^9.0.0"
 
 stylelint-declaration-block-no-ignored-properties@^2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/stylelint-declaration-block-no-ignored-properties/-/stylelint-declaration-block-no-ignored-properties-2.4.0.tgz#767f05aaa15353354f280d6e3245c76bff511010"
-  integrity sha512-ffAvq8GaXHL8rz0Qo+4gr3vqcau4pz/Z6WF9TJr4yG6WY5Vbqa6RPechgqv/izZu5trOKwJgnznOzO8VvhIKlw==
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/stylelint-declaration-block-no-ignored-properties/-/stylelint-declaration-block-no-ignored-properties-2.7.0.tgz#78a4a03a5ec74a06b4abb226a31ff8fc57782a0e"
+  integrity sha512-44SpI9+9Oc1ICuwwRfwS/3npQ2jPobDSTnwWdNgZGryGqQCp17CgEIWjCv1BgUOSzND3RqywNCNLKvO1AOxbfg==
 
 stylelint-high-performance-animation@1.8.0:
   version "1.8.0"
