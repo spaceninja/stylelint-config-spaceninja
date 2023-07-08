@@ -57,9 +57,9 @@
     "postcss": "8.4.24",
     "prettier": "2.8.8",
     "remark-cli": "11.0.0",
-    "stylelint": "14.16.1"
+    "stylelint": "15.10.1"
   },
   "peerDependencies": {
-    "stylelint": "^14.9.0"
+    "stylelint": "14.16.1"
   }
 }
