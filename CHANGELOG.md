@@ -1,3 +1,7 @@
+# 13.0.1 - 2023-07-24
+
+- Updated `stylelint` peer dependency to `^15.5.0`
+
 # 13.0.0 - 2023-07-24
 
 - Updated `stylelint` peer dependency to v15
