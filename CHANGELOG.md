@@ -1,3 +1,7 @@
+# Unreleased
+
+- Updated `stylelint-order` to v6
+
 # 12.0.0 - 2022-12-13
 
 - Major version bump due to dependencies
