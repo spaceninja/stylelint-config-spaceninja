@@ -121,8 +121,8 @@ $theme-colors: (
 // Multi-line double-slash comment
 // comment
 @media
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
+  screen and (resolution >= 192dpi),
+  screen and (resolution >= 2dppx) {
   .selector {
     background-image:
       repeating-linear-gradient(
