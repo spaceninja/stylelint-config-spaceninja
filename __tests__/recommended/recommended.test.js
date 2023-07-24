@@ -75,7 +75,6 @@ describe('deprecated rules', () => {
 	const testFn = deprecatedRuleNames.length === 0 ? it.skip : it;
 
 	testFn('exclude deprecate rules', () => {
-		// eslint-disable-next-line jest/no-standalone-expect -- If not using `it` directly, false positives occur.
 		deprecatedRuleNames.map((m) => expect(Object.keys(config.rules)).not.toContain(m));
 	});
 });
