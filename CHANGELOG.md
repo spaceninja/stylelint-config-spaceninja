@@ -1,5 +1,6 @@
 # Unreleased
 
+- Updated `stylelint` peer dependency to v15
 - Updated `stylelint-order` to v6
 
 # 12.0.0 - 2022-12-13
