@@ -1,3 +1,7 @@
+# 14.0.0 - 2023-09-19
+
+- Updated `stylelint-config-standard-scss` to v11
+
 # 13.0.1 - 2023-07-24
 
 - Updated `stylelint` peer dependency to `^15.5.0`
