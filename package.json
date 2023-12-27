@@ -54,7 +54,7 @@
     "stylelint-a11y": "1.2.3",
     "stylelint-config-standard-scss": "11.1.0",
     "stylelint-declaration-block-no-ignored-properties": "2.8.0",
-    "stylelint-high-performance-animation": "1.9.0",
+    "stylelint-high-performance-animation": "1.10.0",
     "stylelint-order": "6.0.4"
   },
   "devDependencies": {
