@@ -5235,10 +5235,10 @@ stylelint-declaration-block-no-ignored-properties@2.8.0:
   resolved "https://registry.yarnpkg.com/stylelint-declaration-block-no-ignored-properties/-/stylelint-declaration-block-no-ignored-properties-2.8.0.tgz#a7bc95a46f4bc971aec0e33274bfbdecfe575435"
   integrity sha512-Ws8Cav7Y+SPN0JsV407LrnNXWOrqGjxShf+37GBtnU/C58Syve9c0+I/xpLcFOosST3ternykn3Lp77f3ITnFw==
 
-stylelint-high-performance-animation@1.9.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/stylelint-high-performance-animation/-/stylelint-high-performance-animation-1.9.0.tgz#7859f4b33fccb5ddf2d6d41b1b796bf1800bf37c"
-  integrity sha512-tUN8YqIRFRCsMLLI1wnyODP6+H5Lc63NEaUcOt1lqNaEEgd0tGgA4miY2JuL8eSHvgmGkmZPZTn1Dgek05O3uQ==
+stylelint-high-performance-animation@1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/stylelint-high-performance-animation/-/stylelint-high-performance-animation-1.10.0.tgz#2c0b67320fc6d978ee9b532d6feffc708e86979d"
+  integrity sha512-YzNI+E6taN8pwgaM0INazRg4tw23VA17KNMKUVdOeohpnpSyJLBnLVT9NkRcaCFLodK/67smS5VZK+Qe4Ohrvw==
   dependencies:
     postcss-value-parser "^4.2.0"
 
