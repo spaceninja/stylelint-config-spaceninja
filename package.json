@@ -60,9 +60,6 @@
     "stylelint": "16.1.0"
   },
   "peerDependencies": {
-    "stylelint": "16.1.0"
-  },
-  "engines": {
-    "node": "21.5.0"
+    "stylelint": "^16.0.0"
   }
 }
