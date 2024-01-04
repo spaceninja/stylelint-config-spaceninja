@@ -9,7 +9,6 @@
 
 // Multi-line double-slash comment
 // comment
-
 $postfix: if($infix != '', $infix + '-down', '');
 
 @function remove-where($list, $condition) {
@@ -69,10 +68,11 @@ $theme-colors: (
   "success": #28a745,
   "warning": #ffc107,
 );
-
 $global-variable: first global value;
+
 :root {
   --brand-red: hsl(5deg 10% 40%);
+
   $global-variable: second global value !global;
 }
 
@@ -106,7 +106,6 @@ $global-variable: first global value;
   .selector {
     // Flush to parent comment
     @include corner-icon("mail", top, left);
-
     transform: translate(1, 1) scale(3);
   }
 }
@@ -115,14 +114,12 @@ $global-variable: first global value;
   // Flush to parent double-slash comment
   .selector-i + .selector-ii {
     @include triangle(5px, black, right);
-
     background: hsl(20deg 25% 33%);
 
     .selector-j {
       @function contains-helvetica($string) {
         @return string.index($string, "Helvetica");
       }
-
       font-family: remove-where($fonts, meta.get-function("contains-helvetica"));
     }
   }
@@ -131,8 +128,8 @@ $global-variable: first global value;
 // Multi-line double-slash comment
 // comment
 @media
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
+  screen and (resolution >= 192dpi),
+  screen and (resolution >= 2dppx) {
   .selector {
     background-image:
       repeating-linear-gradient(
@@ -153,6 +150,6 @@ $global-variable: first global value;
 }
 
 @keyframes fade-in {
-  from { opacity: 0%; }
-  to { opacity: 100%; }
+  from { opacity: 0; }
+  to { opacity: 1; }
 }

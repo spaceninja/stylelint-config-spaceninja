@@ -5,13 +5,11 @@
 /**
  * Multi-line comment
  */
-
 :root {
 	--brand-red: hsl(5deg 10% 40%);
 }
 
 /* Single-line comment */
-
 .class-foo:not(a, div) {
 	margin: 0;
 	top: calc(100% - 2rem);
@@ -19,7 +17,7 @@
 
 /* Flush single line comment */
 @media (width >= 60em) {
-	.class-bar {
+	.id-bar {
 		/* Flush to parent comment */
 		--offset: 0px;
 		color: #fff;
@@ -29,7 +27,7 @@
 
 	/* Flush nested single line comment */
 	a::after {
-    background-image: url('x.svg');
+		background-image: url('x.svg');
 		content: '→';
 		display: block;
 	}
