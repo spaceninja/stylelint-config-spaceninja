@@ -1,3 +1,10 @@
+# Unreleased
+
+- Removed `stylelint-a11y`
+  This plugin is no longer maintained, and I found I was disabling one
+  of the three rules it added most of the time.
+  @see https://github.com/YozhikM/stylelint-a11y/issues/65
+
 # 14.0.0 - 2023-09-19
 
 - Updated `stylelint-config-standard-scss` to v11

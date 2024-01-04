@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-	extends: ['stylelint-config-standard-scss', 'stylelint-a11y/recommended'],
+	extends: ['stylelint-config-standard-scss'],
 	plugins: [
 		'stylelint-declaration-block-no-ignored-properties',
 		'stylelint-high-performance-animation',
