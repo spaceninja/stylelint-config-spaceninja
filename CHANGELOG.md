@@ -1,4 +1,4 @@
-# Unreleased
+# 15.0.0 - 2024-01-04
 
 - Removed `stylelint-a11y`
   This plugin is no longer maintained, and I found I was disabling one
