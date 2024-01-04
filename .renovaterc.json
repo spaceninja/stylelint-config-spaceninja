@@ -5,7 +5,7 @@
 	"rangeStrategy": "pin",
 	"packageRules": [
 		{
-			"matchDepTypes": ["peerDependencies"],
+			"matchDepTypes": ["peerDependencies", "engines"],
 			"rangeStrategy": "replace"
 		}
 	]
