@@ -2,5 +2,11 @@
 	"extends": ["config:base", ":automergeMinor"],
 	"commitMessageSuffix": "[skip netlify]",
 	"dependencyDashboard": true,
-	"rangeStrategy": "pin"
+	"rangeStrategy": "pin",
+	"packageRules": [
+		{
+			"matchDepTypes": ["peerDependencies", "engines"],
+			"rangeStrategy": "replace"
+		}
+	]
 }
