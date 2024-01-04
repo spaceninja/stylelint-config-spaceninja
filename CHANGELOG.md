@@ -4,6 +4,8 @@
   This plugin is no longer maintained, and I found I was disabling one
   of the three rules it added most of the time.
   @see https://github.com/YozhikM/stylelint-a11y/issues/65
+- Updated `stylelint-config-standard-scss` to v13
+- Updated `stylelint` peer dependency to v16
 
 # 14.0.0 - 2023-09-19
 
