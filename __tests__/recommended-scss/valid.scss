@@ -1,12 +1,16 @@
+@forward "something";
 @use "base";
 @use "sass:list";
 @use "sass:map";
 @use "sass:math";
 @use "sass:meta";
 @use "sass:string";
+@import "something-else";
 
 // Multi-line double-slash comment
 // comment
+
+$postfix: if($infix != '', $infix + '-down', '');
 
 @function remove-where($list, $condition) {
   $new-list: ();
@@ -58,6 +62,7 @@
   color: #333;
 }
 
+$default-color: #000 !default;
 $local-color: #333;
 $fonts: "Tahoma", "Helvetica Neue", "Helvetica", sans-serif;
 $theme-colors: (
@@ -65,8 +70,10 @@ $theme-colors: (
   "warning": #ffc107,
 );
 
+$global-variable: first global value;
 :root {
   --brand-red: hsl(5deg 10% 40%);
+  $global-variable: second global value !global;
 }
 
 .selector-1,
@@ -99,6 +106,7 @@ $theme-colors: (
   .selector {
     // Flush to parent comment
     @include corner-icon("mail", top, left);
+
     transform: translate(1, 1) scale(3);
   }
 }
@@ -107,12 +115,14 @@ $theme-colors: (
   // Flush to parent double-slash comment
   .selector-i + .selector-ii {
     @include triangle(5px, black, right);
+
     background: hsl(20deg 25% 33%);
 
     .selector-j {
       @function contains-helvetica($string) {
         @return string.index($string, "Helvetica");
       }
+
       font-family: remove-where($fonts, meta.get-function("contains-helvetica"));
     }
   }
@@ -121,8 +131,8 @@ $theme-colors: (
 // Multi-line double-slash comment
 // comment
 @media
-  screen and (resolution >= 192dpi),
-  screen and (resolution >= 2dppx) {
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
   .selector {
     background-image:
       repeating-linear-gradient(
@@ -143,6 +153,6 @@ $theme-colors: (
 }
 
 @keyframes fade-in {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from { opacity: 0%; }
+  to { opacity: 100%; }
 }
