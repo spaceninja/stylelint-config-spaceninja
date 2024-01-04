@@ -1,5 +1,6 @@
-@import 'foo.css';
-@import 'bar.css';
+@import url('foo.css');
+@import url('bar.css');
+
 @custom-media --foo (min-width: 30em);
 
 /**
@@ -19,9 +20,10 @@
 
 /* Flush single line comment */
 @media (width >= 60em) {
-	.class-bar {
+	#id-bar {
 		/* Flush to parent comment */
 		--offset: 0px;
+
 		color: #fff;
 		font-family: Helvetica, 'Arial Black', sans-serif;
 		left: calc(var(--offset) + 50%);
@@ -29,7 +31,7 @@
 
 	/* Flush nested single line comment */
 	a::after {
-    background-image: url('x.svg');
+		background-image: url('x.svg');
 		content: '→';
 		display: block;
 	}
