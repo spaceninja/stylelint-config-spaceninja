@@ -54,7 +54,7 @@
     "@stylelint/prettier-config": "3.0.0",
     "eslint": "8.57.0",
     "eslint-config-stylelint": "21.0.0",
-    "npm-run-all2": "6.2.2",
+    "npm-run-all2": "6.2.3",
     "postcss": "8.4.45",
     "prettier": "3.3.3",
     "stylelint": "16.9.0"
