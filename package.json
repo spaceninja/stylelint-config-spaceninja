@@ -37,7 +37,7 @@
     "eslint-config-stylelint": "23.0.0",
     "npm-run-all2": "7.0.2",
     "postcss": "8.5.3",
-    "prettier": "3.5.1",
+    "prettier": "3.5.2",
     "stylelint": "16.14.1"
   },
   "peerDependencies": {
