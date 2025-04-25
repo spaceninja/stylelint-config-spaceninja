@@ -38,7 +38,7 @@
     "npm-run-all2": "7.0.2",
     "postcss": "8.5.3",
     "prettier": "3.5.3",
-    "stylelint": "16.19.0"
+    "stylelint": "16.19.1"
   },
   "peerDependencies": {
     "stylelint": "^16.0.0"
