@@ -1,8 +1,7 @@
 {
-	"extends": ["config:base", ":automergeMinor"],
+	"extends": ["config:recommended", ":automergeMinor", ":pinVersions"],
+	"minimumReleaseAge": "3 days",
 	"commitMessageSuffix": "[skip netlify]",
-	"dependencyDashboard": true,
-	"rangeStrategy": "pin",
 	"packageRules": [
 		{
 			"matchDepTypes": ["peerDependencies", "engines"],
