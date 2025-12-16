@@ -32,7 +32,7 @@
     "stylelint-order": "6.0.4"
   },
   "devDependencies": {
-    "@stylelint/prettier-config": "3.0.0",
+    "@stylelint/prettier-config": "4.0.0",
     "eslint": "9.39.2",
     "eslint-config-stylelint": "23.0.0",
     "npm-run-all2": "8.0.4",
