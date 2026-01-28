@@ -28,7 +28,7 @@
   "dependencies": {
     "stylelint-config-standard-scss": "13.1.0",
     "stylelint-declaration-block-no-ignored-properties": "2.8.0",
-    "stylelint-high-performance-animation": "1.11.0",
+    "stylelint-high-performance-animation": "2.0.0",
     "stylelint-order": "6.0.4"
   },
   "devDependencies": {
