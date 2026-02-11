@@ -1,11 +1,15 @@
 @custom-media --FOO;
 
-:root {
-	--FOO: 1px;
+@layer FOO {
+	/* ... */
 }
 
 @keyframes FOO {
 	/* ... */
+}
+
+:root {
+	--FOO: 1px;
 }
 
 .FOO {

@@ -1,3 +1,11 @@
+# 16.0.0 - 2026-02-11
+
+- Removed stylelint less than 17.0.0 from peer dependencies.
+- Updated to [`stylelint-config-standard-scss@17.0.0`](https://github.com/stylelint-scss/stylelint-config-standard-scss/releases/tag/v17.0.0).
+- Updated to [`stylelint-declaration-block-no-ignored-properties@3.0.0`](https://github.com/kristerkari/stylelint-declaration-block-no-ignored-properties/releases/tag/v3.0.0).
+- Updated to [`stylelint-high-performance-animation@2.0.0`](https://github.com/kristerkari/stylelint-high-performance-animation/releases/tag/v2.0.0).
+- Updated to [`stylelint-order@7.0.1`](https://github.com/hudochenkov/stylelint-order/releases/tag/7.0.1).
+
 # 15.0.0 - 2024-01-04
 
 - Removed `stylelint-a11y`
