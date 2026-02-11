@@ -65,7 +65,10 @@ describe('stylelint-standard-scss', () => {
 		});
 
 		it('corrects warning text', () => {
-			assert.equal(result.results[0].warnings[0].text, 'Expected variable to be kebab-case');
+			assert.equal(
+				result.results[0].warnings[0].text,
+				'Expected variable to be kebab-case (scss/dollar-variable-pattern)',
+			);
 		});
 
 		it('corrects rule flagged', () => {
