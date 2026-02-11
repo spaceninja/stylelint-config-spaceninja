@@ -38,6 +38,10 @@ $postfix: if($infix != '', $infix + '-down', '');
   border-style: solid;
   border-width: math.div($size, 2);
 
+  &:hover {
+    transform: translate(0, 8px);
+  }
+
   @if $direction == up {
     border-bottom-color: $color;
   } @else if $direction == right {
@@ -106,11 +110,11 @@ $global-variable: first global value;
   .selector {
     // Flush to parent comment
     @include corner-icon("mail", top, left);
-    transform: translate(1, 1) scale(3);
+    transform: translate(100%, 100%) scale(3);
   }
 }
 
-@media (orientation: portrait), projection and (color) {
+@media (orientation: portrait), screen and (color) {
   // Flush to parent double-slash comment
   .selector-i + .selector-ii {
     @include triangle(5px, black, right);

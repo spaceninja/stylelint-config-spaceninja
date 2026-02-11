@@ -1,5 +1,4 @@
-// eslint-disable-next-line n/no-unsupported-features/node-builtins
-import { beforeEach, describe, it } from 'node:test';
+import { beforeEach, describe, it } from 'node:test'; // eslint-disable-line n/no-unsupported-features/node-builtins
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 
@@ -7,10 +6,10 @@ import stylelint from 'stylelint';
 
 import config from '../../index.js';
 
-const validScss = readFileSync('./__tests__/standard-scss/valid.scss', 'utf8');
-const invalidScss = readFileSync('./__tests__/standard-scss/invalid.scss', 'utf8');
+const validScss = readFileSync('./__tests__/recommended-scss/valid.scss', 'utf-8');
+const invalidScss = readFileSync('./__tests__/recommended-scss/invalid.scss', 'utf-8');
 
-describe('stylelint-standard-scss', () => {
+describe('stylelint-recommended-scss', () => {
 	describe('flags no warnings with valid scss', () => {
 		let result;
 
@@ -21,7 +20,7 @@ describe('stylelint-standard-scss', () => {
 			});
 		});
 
-		it('has no errors', () => {
+		it('did not error', () => {
 			assert.equal(result.errored, false);
 		});
 
@@ -56,7 +55,7 @@ describe('stylelint-standard-scss', () => {
 			});
 		});
 
-		it('includes an error', () => {
+		it('did error', () => {
 			assert.equal(result.errored, true);
 		});
 
@@ -64,27 +63,27 @@ describe('stylelint-standard-scss', () => {
 			assert.equal(result.results[0].warnings.length, 1);
 		});
 
-		it('corrects warning text', () => {
+		it('correct warning text', () => {
 			assert.equal(
 				result.results[0].warnings[0].text,
-				'Expected variable to be kebab-case (scss/dollar-variable-pattern)',
+				'Expected @if not statement rather than @if statement == null (scss/at-if-no-null)',
 			);
 		});
 
-		it('corrects rule flagged', () => {
-			assert.equal(result.results[0].warnings[0].rule, 'scss/dollar-variable-pattern');
+		it('correct rule flagged', () => {
+			assert.equal(result.results[0].warnings[0].rule, 'scss/at-if-no-null');
 		});
 
-		it('corrects severity flagged', () => {
+		it('correct severity flagged', () => {
 			assert.equal(result.results[0].warnings[0].severity, 'error');
 		});
 
-		it('corrects line number', () => {
+		it('correct line number', () => {
 			assert.equal(result.results[0].warnings[0].line, 1);
 		});
 
-		it('corrects column number', () => {
-			assert.equal(result.results[0].warnings[0].column, 1);
+		it('correct column number', () => {
+			assert.equal(result.results[0].warnings[0].column, 5);
 		});
 	});
 });

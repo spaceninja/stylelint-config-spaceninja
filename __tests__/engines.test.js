@@ -1,5 +1,4 @@
-// eslint-disable-next-line n/no-unsupported-features/node-builtins
-import { describe, it } from 'node:test';
+import { describe, it } from 'node:test'; // eslint-disable-line n/no-unsupported-features/node-builtins
 import assert from 'node:assert/strict';
 import { execFileSync } from 'node:child_process';
 import { readFileSync } from 'node:fs';

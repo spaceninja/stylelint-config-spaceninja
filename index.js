@@ -1,6 +1,4 @@
-'use strict';
-
-module.exports = {
+export default {
 	extends: ['stylelint-config-standard-scss'],
 	plugins: [
 		'stylelint-declaration-block-no-ignored-properties',

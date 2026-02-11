@@ -1,17 +1,14 @@
-// eslint-disable-next-line n/no-unsupported-features/node-builtins
-import { beforeEach, describe, it } from 'node:test';
+import { beforeEach, describe, it } from 'node:test'; // eslint-disable-line n/no-unsupported-features/node-builtins
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
+import fs from 'node:fs';
 
 import stylelint from 'stylelint';
 
 import config from '../../index.js';
 
-const validCss = readFileSync('./__tests__/recommended/valid.css', 'utf-8');
-const invalidCss = readFileSync('./__tests__/recommended/invalid.css', 'utf-8');
-
-describe('stylelint-recommended', () => {
+describe('styleint-standard', () => {
 	describe('flags no warnings with valid css', () => {
+		const validCss = fs.readFileSync('./__tests__/standard/valid.css', 'utf-8');
 		let result;
 
 		beforeEach(async () => {
@@ -21,7 +18,7 @@ describe('stylelint-recommended', () => {
 			});
 		});
 
-		it('has no errors', () => {
+		it('did not error', () => {
 			assert.equal(result.errored, false);
 		});
 
@@ -47,6 +44,7 @@ describe('stylelint-recommended', () => {
 	});
 
 	describe('flags warnings with invalid css', () => {
+		const invalidCss = fs.readFileSync('./__tests__/standard/invalid.css', 'utf-8');
 		let result;
 
 		beforeEach(async () => {
@@ -56,35 +54,52 @@ describe('stylelint-recommended', () => {
 			});
 		});
 
-		it('includes an error', () => {
+		it('did error', () => {
 			assert.equal(result.errored, true);
 		});
 
-		it('flags one warning', () => {
-			assert.equal(result.results[0].warnings.length, 1);
+		it('flags warnings', () => {
+			assert.equal(result.results[0].warnings.length, 6);
 		});
 
-		it('corrects warning text', () => {
-			assert.equal(
-				result.results[0].warnings[0].text,
-				'Unexpected unknown type selector "madeup" (selector-type-no-unknown)',
+		it('correct warning text', () => {
+			assert.deepEqual(
+				result.results[0].warnings.map((w) => w.text),
+				[
+					'Expected custom media query name "--FOO" to be kebab-case (custom-media-pattern)',
+					'Expected custom property name "--FOO" to be kebab-case (custom-property-pattern)',
+					'Expected keyframe name "FOO" to be kebab-case (keyframes-name-pattern)',
+					'Expected layer name "FOO" to be kebab-case (layer-name-pattern)',
+					'Expected id selector "#FOO" to be kebab-case (selector-id-pattern)',
+					'Expected "#FOO" to have no more than 0 ID selectors (selector-max-id)',
+				],
 			);
 		});
 
-		it('corrects rule flagged', () => {
-			assert.equal(result.results[0].warnings[0].rule, 'selector-type-no-unknown');
+		it('correct rule flagged', () => {
+			assert.deepEqual(
+				result.results[0].warnings.map((w) => w.rule),
+				[
+					'custom-media-pattern',
+					'custom-property-pattern',
+					'keyframes-name-pattern',
+					'layer-name-pattern',
+					'selector-id-pattern',
+					'selector-max-id',
+				],
+			);
 		});
 
-		it('corrects severity flagged', () => {
+		it('correct severity flagged', () => {
 			assert.equal(result.results[0].warnings[0].severity, 'error');
 		});
 
-		it('corrects line number', () => {
+		it('correct line number', () => {
 			assert.equal(result.results[0].warnings[0].line, 1);
 		});
 
-		it('corrects column number', () => {
-			assert.equal(result.results[0].warnings[0].column, 1);
+		it('correct column number', () => {
+			assert.equal(result.results[0].warnings[0].column, 15);
 		});
 	});
 

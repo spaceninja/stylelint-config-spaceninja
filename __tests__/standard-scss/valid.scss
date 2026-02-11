@@ -114,11 +114,11 @@ $theme-colors: (
   .selector {
     // Flush to parent comment
     @include corner-icon("mail", top, left);
-    transform: translate(1, 1) scale(3);
+    transform: translate(100%, 100%) scale(3);
   }
 }
 
-@media (orientation: portrait), projection and (color) {
+@media (orientation: portrait), screen and (color) {
   // Flush to parent double-slash comment
   .selector-i + .selector-ii {
     @include triangle(5px, black, right);
@@ -160,4 +160,41 @@ $theme-colors: (
 @keyframes fade-in {
   from { opacity: 0; }
   to { opacity: 1; }
+}
+
+$ratios:
+    5 4,
+    4 3,
+    3 2,
+    16 9;
+
+@mixin hardcode-total-height($base-height, $extra-height: 0px) {
+  height: calc($base-height + $extra-height);
+}
+
+a {
+  @include hardcode-total-height(10px);
+}
+
+@function add-numbers($number-a, $number-b: 0px) {
+  @return calc($number-a + $number-b)
+}
+
+div {
+  width: add-numbers(10px);
+}
+
+// issue #214
+.name {
+  &-suffix {
+    content: '';
+  }
+}
+
+// issue #184
+.arrow-button {
+  // stylelint-disable-next-line no-duplicate-selectors, block-no-redundant-nested-style-rules
+  & {
+    @include utils.focus-visible;
+  }
 }
