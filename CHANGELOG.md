@@ -1,3 +1,7 @@
+# 17.0.0 - 2026-05-21
+
+- Updated to [`stylelint-order@8.1.1`](https://github.com/hudochenkov/stylelint-order/releases/tag/8.1.1).
+
 # 16.0.0 - 2026-02-11
 
 - Removed stylelint less than 17.0.0 from peer dependencies.
