@@ -71,7 +71,7 @@ describe('styleint-standard', () => {
 					'Expected keyframe name "FOO" to be kebab-case (keyframes-name-pattern)',
 					'Expected layer name "FOO" to be kebab-case (layer-name-pattern)',
 					'Expected id selector "#FOO" to be kebab-case (selector-id-pattern)',
-					'Expected "#FOO" to have no more than 0 ID selectors (selector-max-id)',
+					'Too many ID selectors in "#FOO", maximum 0 (selector-max-id)',
 				],
 			);
 		});

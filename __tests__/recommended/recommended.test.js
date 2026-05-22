@@ -66,7 +66,7 @@ describe('stylelint-recommended', () => {
 		it('corrects warning text', () => {
 			assert.equal(
 				result.results[0].warnings[0].text,
-				'Unexpected unknown type selector "madeup" (selector-type-no-unknown)',
+				'Unknown type selector "madeup" (selector-type-no-unknown)',
 			);
 		});
 
