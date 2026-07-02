@@ -37,7 +37,7 @@
     "eslint": "10.6.0",
     "eslint-config-stylelint": "27.0.0",
     "npm-run-all2": "9.0.2",
-    "postcss": "8.5.15",
+    "postcss": "8.5.16",
     "prettier": "3.9.1",
     "stylelint": "17.14.0"
   },
