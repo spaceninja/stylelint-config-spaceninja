@@ -63,13 +63,9 @@ describe('stylelint-recommended', () => {
 			assert.equal(result.results[0].warnings.length, 1);
 		});
 
-		it('corrects warning text', () => {
-			assert.equal(
-				result.results[0].warnings[0].text,
-				'Unknown type selector "madeup" (selector-type-no-unknown)',
-			);
-		});
-
+		// Checks which rule flagged, not its message text. The message comes from
+		// stylelint, and its wording changes between minor versions, which would
+		// fail the oldest-supported CI job.
 		it('corrects rule flagged', () => {
 			assert.equal(result.results[0].warnings[0].rule, 'selector-type-no-unknown');
 		});

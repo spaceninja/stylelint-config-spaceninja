@@ -62,20 +62,9 @@ describe('styleint-standard', () => {
 			assert.equal(result.results[0].warnings.length, 6);
 		});
 
-		it('correct warning text', () => {
-			assert.deepEqual(
-				result.results[0].warnings.map((w) => w.text),
-				[
-					'Expected custom media query name "--FOO" to be kebab-case (custom-media-pattern)',
-					'Expected custom property name "--FOO" to be kebab-case (custom-property-pattern)',
-					'Expected keyframe name "FOO" to be kebab-case (keyframes-name-pattern)',
-					'Expected layer name "FOO" to be kebab-case (layer-name-pattern)',
-					'Expected id selector "#FOO" to be kebab-case (selector-id-pattern)',
-					'Too many ID selectors in "#FOO", maximum 0 (selector-max-id)',
-				],
-			);
-		});
-
+		// Checks which rules flagged, not their message text. The messages come
+		// from stylelint and the configs we extend, and their wording changes
+		// between minor versions, which would fail the oldest-supported CI job.
 		it('correct rule flagged', () => {
 			assert.deepEqual(
 				result.results[0].warnings.map((w) => w.rule),
