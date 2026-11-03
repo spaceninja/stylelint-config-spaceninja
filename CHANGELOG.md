@@ -1,3 +1,7 @@
+# 17.0.1 - 2026-11-03
+
+- `stylelint-order` moves from `8.1.1` to `8.1.2`.
+
 # 17.0.0 - 2026-05-21
 
 - Updated to [`stylelint-order@8.1.1`](https://github.com/hudochenkov/stylelint-order/releases/tag/8.1.1).
